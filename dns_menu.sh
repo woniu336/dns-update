@@ -71,7 +71,7 @@ install_dependencies() {
     
     # 下载 dns_update.sh
     if [ ! -f "dns_update.sh" ]; then
-        wget https://raw.githubusercontent.com/woniu336/open_shell/main/dns_update/dns_update.sh
+        wget https://raw.githubusercontent.com/woniu336/dns-update/main/dns_update.sh
         chmod +x dns_update.sh
         echo -e "${GREEN}dns_update.sh 下载完成。${NC}"
     else
@@ -80,7 +80,7 @@ install_dependencies() {
 
     # 下载 dns_update.py
     if [ ! -f "dns_update.py" ]; then
-        wget https://raw.githubusercontent.com/woniu336/open_shell/main/dns_update/dns_update.py
+        wget https://raw.githubusercontent.com/woniu336/dns-update/main/dns_update.py
         chmod +x dns_update.py
         echo -e "${GREEN}dns_update.py 下载完成。${NC}"
     else
